@@ -2,7 +2,7 @@
 root=`pwd`
 root=""
 # 脚本存放地址
-mico_path="${root}/root/mico.sh"
+mico_path="${root}/data/mico.sh"
 # 脚本开机启动
 mico_initpath="${root}/etc/init.d/mico_enable"
 mico_tmppath="/tmp"
