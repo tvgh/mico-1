@@ -11,7 +11,8 @@ keywords_update_timeout=0
 # == /自定义配置========================================
  
 asr_file="/tmp/mipns/mibrain/mibrain_asr.log"
-res_file="/tmp/mipns/mibrain/mibrain_txt_RESULT_NLP.log"
+#res_file="/tmp/mipns/mibrain/mibrain_txt_RESULT_NLP.log"
+res_file="/tmp/mipns/mibrain/mibrain_response.log"
 nodered_auth="ben:benbendediannao"
  
 # 解决可能存在第一次文件不存在问题
