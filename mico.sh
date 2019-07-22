@@ -59,7 +59,7 @@ while true;do
           echo "== 停止成功"
           break
         fi
-        usleep 50
+        sleep 50
       done
  
       # 记录播放状态并暂停,方便在HA服务器处理逻辑的时候不会插播音乐,0为未播放,1为播放中,2为暂停
@@ -109,5 +109,5 @@ while true;do
         last_time=`date +%s`
     fi
   fi
-  usleep 10
+  sleep 10
 done
